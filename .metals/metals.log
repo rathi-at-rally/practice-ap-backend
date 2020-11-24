@@ -1,0 +1,914 @@
+2020.11.20 00:29:53 INFO  Started: Metals version 0.9.5 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.20 00:29:54 INFO  time: initialize in 0.35s
+2020.11.20 00:29:54 WARN  Build server is not auto-connectable.
+2020.11.20 00:29:54 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 00:29:55 INFO  no build target: using presentation compiler with only scala-library
+2020.11.20 00:30:03 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.20 00:30:03 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/project/metals.sbt
+2020.11.20 00:30:03 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/project/project/metals.sbt
+2020.11.20 00:30:03 INFO  skipping build import with status 'Started'
+2020.11.20 00:30:08 ERROR [info] [launcher] getting org.scala-sbt sbt 1.3.13  (this may take some time)...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.3.13/sbt-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.3.13/main_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.3.4/io_2.12-1.3.4.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.3.13/logic_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.3.13/actions_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.3.13/main-settings_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.3.13/run_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.3.13/collections_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.3.13/command_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-sbt-redux_2.12/1.3.13/scripted-sbt-redux_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.3.13/scripted-plugin_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.3.13/zinc-lm-integration_2.12-1.3.13.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.1.4/launcher-interface-1.1.4.jar ...
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR :: loading settings :: url = jar:file:/private/var/folders/w4/w8wgdpsn31vfz_f4d8bz6bg5hlj3jx/T/metals7300907893330800300/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.0-RC6-4/lm-coursier-shaded_2.12-2.0.0-RC6-4.jar ...
+2020.11.20 00:31:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.3.3/util-logging_2.12-1.3.3.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.3.13!run_2.12.jar (1023ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.3.4/librarymanagement-core_2.12-1.3.4.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.3.13!scripted-plugin_2.12.jar (1075ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.3.4/librarymanagement-ivy_2.12-1.3.4.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.1.4!launcher-interface.jar (1085ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-sbt-redux_2.12;1.3.13!scripted-sbt-redux_2.12.jar (1292ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.3.5/zinc-compile_2.12-1.3.5.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.3.13!zinc-lm-integration_2.12.jar (1313ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.3.3/util-relation_2.12-1.3.3.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.3.13!sbt.jar (1425ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.3/sjson-new-scalajson_2.12-0.8.3.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.3.13!logic_2.12.jar (1441ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.3.3/util-position_2.12-1.3.3.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.3.3!util-logging_2.12.jar (1559ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.3/sjson-new-core_2.12-0.8.3.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.3.13!actions_2.12.jar (1935ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.3.5!zinc-compile_2.12.jar (686ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.3.13/completion_2.12-1.3.13.jar ...
+2020.11.20 00:31:21 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.3.3!util-relation_2.12.jar (698ms)
+2020.11.20 00:31:21 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.3.13/task-system_2.12-1.3.13.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.3.5!compiler-interface.jar (972ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.3.13/tasks_2.12-1.3.13.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.3.13!collections_2.12.jar (2148ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.3.13/testing_2.12-1.3.13.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-scalajson_2.12;0.8.3!sjson-new-scalajson_2.12.jar (729ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.3.3/util-tracking_2.12-1.3.3.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.3.3!util-position_2.12.jar (735ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.3.5/zinc-classpath_2.12-1.3.5.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.3.13!command_2.12.jar (2180ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.3.5/zinc-apiinfo_2.12-1.3.5.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.3.4!librarymanagement-core_2.12.jar (1461ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.3.5/zinc_2.12-1.3.5.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.3.4!librarymanagement-ivy_2.12.jar (1411ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.3.3/util-control_2.12-1.3.3.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.8.3!sjson-new-core_2.12.jar (1039ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.3/file-tree-views-2.1.3.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.3.13!completion_2.12.jar (709ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.3/util-interface-1.3.3.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.3.4!io_2.12.jar (2737ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.3.13!main-settings_2.12.jar (2759ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.3.3!util-tracking_2.12.jar (687ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.3.3/util-cache_2.12-1.3.3.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.3.13!task-system_2.12.jar (965ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.3/sjson-new-murmurhash_2.12-0.8.3.jar ...
+2020.11.20 00:31:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.3.13!tasks_2.12.jar (926ms)
+2020.11.20 00:31:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.3.13/test-agent-1.3.13.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.3.5!zinc-classpath_2.12.jar (894ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.3.5/compiler-bridge_2.12-1.3.5.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.3.3!util-control_2.12.jar (667ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.3.5/zinc-classfile_2.12-1.3.5.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.3.5!zinc-apiinfo_2.12.jar (1011ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.3.5/zinc-core_2.12-1.3.5.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.3.5!zinc_2.12.jar (729ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.3.5/zinc-persist_2.12-1.3.5.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.3.13!testing_2.12.jar (1144ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.3.5/zinc-compile-core_2.12-1.3.5.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] com.swoval#file-tree-views;2.1.3!file-tree-views.jar (685ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.3.13/core-macros_2.12-1.3.13.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.3.3!util-interface.jar (671ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.3.13/protocol_2.12-1.3.13.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.3!sjson-new-murmurhash_2.12.jar (694ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.1/ipcsocket-1.0.1.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.3.3!util-cache_2.12.jar (898ms)
+2020.11.20 00:31:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-scripted_2.12/1.3.3/util-scripted_2.12-1.3.3.jar ...
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.3.13!test-agent.jar (754ms)
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.3.13!core-macros_2.12.jar (677ms)
+2020.11.20 00:31:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.3.5!zinc-classfile_2.12.jar (860ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.3.13!protocol_2.12.jar (733ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.3.5!compiler-bridge_2.12.jar (1245ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.0.1!ipcsocket.jar (674ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.3.5!zinc-persist_2.12.jar (1165ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-scripted_2.12;1.3.3!util-scripted_2.12.jar (697ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.3.5!zinc-compile-core_2.12.jar (1144ms)
+2020.11.20 00:31:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.3.5!zinc-core_2.12.jar (1692ms)
+2020.11.20 00:31:26 ERROR 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.7.0!protobuf-java.jar(bundle) (2777ms)
+2020.11.20 00:31:26 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.3.13!main_2.12.jar (5813ms)
+2020.11.20 00:31:28 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.10!scala-library.jar (7396ms)
+2020.11.20 00:31:28 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.10!scala-reflect.jar (5651ms)
+2020.11.20 00:31:29 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.0-RC6-4!lm-coursier-shaded_2.12.jar (8380ms)
+2020.11.20 00:31:31 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.10!scala-compiler.jar (7763ms)
+2020.11.20 00:31:31 ERROR :: retrieving :: org.scala-sbt#boot-app
+2020.11.20 00:31:31 ERROR 	confs: [default]
+2020.11.20 00:31:31 ERROR 	81 artifacts copied, 0 already retrieved
+2020.11.20 00:31:31 ERROR [info] [launcher] getting Scala 2.12.10 (for sbt)...
+2020.11.20 00:31:31 ERROR :: retrieving :: org.scala-sbt#boot-scala
+2020.11.20 00:31:31 ERROR 	confs: [default]
+2020.11.20 00:31:31 ERROR 	6 artifacts copied, 0 already retrieved
+2020.11.20 00:31:38 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 1.8.0_265)
+2020.11.20 00:31:40 INFO  [info] loading settings for project practice-ap-backend-build-build-build from metals.sbt ...
+2020.11.20 00:31:45 INFO  [info] loading project definition from /Users/mrathi5/Desktop/POCs/practice-ap-backend/project/project/project
+2020.11.20 00:31:59 INFO  user cancelled sbt bloopInstall
+2020.11.20 00:31:59 INFO  time: ran 'sbt bloopInstall' in 1m56s
+2020.11.20 00:31:59 INFO  2020-11-20 00:31:59,993 shutdown-hooks-run-all ERROR No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+2020.11.20 00:31:59 INFO  sbt bloopInstall exit: 143
+2020.11.20 00:37:24 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 00:40:46 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 00:42:22 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 00:42:55 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 00:43:25 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+Nov 20, 2020 12:43:31 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.11.20 00:44:00 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 00:44:02 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+Exception in thread "pool-1-thread-30" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:152)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:63)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:63)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:63)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:204)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:197)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Nov 20, 2020 2:19:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 866
+2020.11.20 02:20:56 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala in List[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala, 296, 296, 310)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala in List[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala, 296, 296, 302)
+2020.11.20 02:24:29 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:24:29 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:24:33 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:24:33 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:25:47 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:25:47 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:25:55 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:26:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:26:27 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:26:39 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:26:41 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:26:41 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+Nov 20, 2020 2:27:33 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 2:27:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:58)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:58)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1928)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1928)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1990)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5354)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:399)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+2020.11.20 02:30:42 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:30:42 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:31:53 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:31:53 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:32:16 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: unclosed string literal
+        "Pediatrics”,
+        ^
+2020.11.20 02:32:16 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:32:19 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: unclosed string literal
+        "Pediatrics”,
+        ^
+2020.11.20 02:32:19 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:32:31 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: unclosed string literal
+        "Pediatrics”,
+        ^
+2020.11.20 02:32:31 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:33:18 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:22: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:33:18 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:35:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:35:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:35:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:35:10 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:23: error: illegal character '\u201d'
+        ”12720 Bass Lake Rd”,
+        ^
+2020.11.20 02:35:10 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:35:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:36:54 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:26: error: unclosed string literal
+        "0.7 Miles Away”
+        ^
+2020.11.20 02:36:54 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:37:30 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:26: error: unclosed string literal
+        "0.7 Miles Away”,
+        ^
+2020.11.20 02:37:30 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:38:40 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:30: error: illegal character '\u201d'
+        ”Pediatrics”,
+        ^
+2020.11.20 02:38:40 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:39:12 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:73: error: illegal start of simple expression
+      (JsPath \ "name").write[String].and((JsPath \ "name")).write([String])(unlife(location.unapply))
+                                                                   ^
+2020.11.20 02:39:12 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:39:51 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:40:35 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:73: error: illegal start of simple expression
+      (JsPath \ "name").write[String].and((JsPath \ "name")).write([String])(unlife(location.unapply))
+                                                                   ^
+2020.11.20 02:40:35 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:42:01 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:73: error: ; expected but ) found
+      (JsPath \ "name").write[String].and((JsPath \ "name")).write[String])(unlift(location.unapply))
+                                                                          ^
+2020.11.20 02:42:01 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:42:12 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:73: error: ; expected but ) found
+      (JsPath \ "name").write[String].and((JsPath \ "name")).write[String])(unlift(location.unapply));
+                                                                          ^
+2020.11.20 02:42:12 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:42:36 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:43:13 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:44:05 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:44:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:44:46 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:45:18 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 02:45:22 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 02:48:50 INFO  shutting down Metals
+2020.11.20 11:35:46 INFO  Started: Metals version 0.9.5 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.20 11:35:46 INFO  time: initialize in 0.37s
+2020.11.20 11:35:47 WARN  Build server is not auto-connectable.
+2020.11.20 11:35:47 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 11:35:47 INFO  skipping build import with status 'Cancelled'
+2020.11.20 11:35:48 INFO  no build target: using presentation compiler with only scala-library
+2020.11.20 11:36:26 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:26 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:28 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:40 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:40 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:36:40 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 11:38:35 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 11:40:01 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 12:05:42 INFO  shutting down Metals
+2020.11.20 15:08:55 INFO  Started: Metals version 0.9.5 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.20 15:08:56 INFO  time: initialize in 0.35s
+2020.11.20 15:08:56 WARN  Build server is not auto-connectable.
+2020.11.20 15:08:56 INFO  skipping build import with status 'Cancelled'
+2020.11.20 15:12:40 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 15:12:41 INFO  no build target: using presentation compiler with only scala-library
+2020.11.20 15:12:51 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 15:13:24 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 15:13:26 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 15:13:28 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 15:13:28 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 18:00:00 INFO  shutting down Metals
+2020.11.20 20:40:29 INFO  Started: Metals version 0.9.5 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.20 20:40:29 INFO  time: initialize in 0.36s
+2020.11.20 20:40:30 WARN  Build server is not auto-connectable.
+2020.11.20 20:40:30 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 20:40:30 INFO  skipping build import with status 'Cancelled'
+2020.11.20 20:40:31 INFO  no build target: using presentation compiler with only scala-library
+2020.11.20 20:42:07 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 20:42:07 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 20:42:07 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 20:42:26 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:100: error: end of file expected but } found
+}
+^
+2020.11.20 20:42:26 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 20:42:28 INFO  shutting down Metals
+2020.11.20 22:07:29 INFO  Started: Metals version 0.9.5 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.20 22:07:29 INFO  time: initialize in 0.37s
+2020.11.20 22:07:29 WARN  Build server is not auto-connectable.
+2020.11.20 22:07:29 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:07:30 INFO  skipping build import with status 'Cancelled'
+2020.11.20 22:07:31 INFO  no build target: using presentation compiler with only scala-library
+2020.11.20 22:09:14 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:10:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-2,offset=73
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-2,offset=73
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-3,offset=124
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-3,offset=124
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-5,offset=230
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-5,offset=230
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-6,offset=280
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-6,offset=280
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:12 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:12 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-3,offset=125
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-3,offset=125
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-3,offset=125
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-3,offset=125
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-4,offset=174
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-4,offset=174
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-6,offset=287
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-6,offset=287
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:16 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:17 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-4,offset=178
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-4,offset=178
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-5,offset=237
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-5,offset=237
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:21 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-5,offset=238
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-5,offset=238
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:21 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:24 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+Nov 20, 2020 10:10:24 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2020 10:10:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-6,offset=302
+scala.reflect.internal.FatalError: no context found for source-file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala,line-6,offset=302
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.20 22:10:24 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:24 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:26 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:26 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:42 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala in List[SearchResult]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala, 204, 204, 222)
+2020.11.20 22:10:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:10:48 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:11:13 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:11:24 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:25 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:25 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:11:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:53 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:54 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:54 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:56 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:58 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:59 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:11:59 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:12:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:12:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:12:01 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:12:01 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:12:01 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:13:18 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:18 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:22 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:22 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:32 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:43 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:43 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:45 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:45 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:45 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:51 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:51 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:13:56 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:07 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:07 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:07 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:14 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala:4: error: expected class or object definition
+<div class="col-sm-4">
+^
+2020.11.20 22:14:14 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:14:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:37 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:14:37 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:15:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:15:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:15:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:15:51 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:12 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:12 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:12 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:16 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:16 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:16 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:21 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:21 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:21 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:27 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:27 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:27 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:27 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:16:46 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:17:13 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:17:13 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:17:30 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:17:42 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:17:43 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala:5: error: expected class or object definition
+              <div class="row costDetails">
+              ^
+2020.11.20 22:17:43 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:17:43 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala:5: error: expected class or object definition
+              <div class="row costDetails">
+              ^
+2020.11.20 22:17:43 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:17:43 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:18:06 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:18:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:18:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:18:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:18:44 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:18:55 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:19:07 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.20 22:19:20 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:19:27 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.20 22:19:41 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.20 22:20:02 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:20:03 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:20:33 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:20:33 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:22:32 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:32 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:32 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:32 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:35 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:37 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:51 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:51 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:54 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:54 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:57 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:57 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:22:59 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:03 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:06 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:06 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:09 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:09 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:09 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:09 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:11 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:15 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:15 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:22 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:24 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:23:57 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:02 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:22 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.20 22:24:22 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:34 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:34 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:34 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:34 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:35 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:35 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:37 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:38 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:40 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:24:40 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:25:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:25:19 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.20 22:25:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:25:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.20 22:25:34 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.21 03:49:14 INFO  shutting down Metals
+2020.11.21 12:47:51 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.21 12:47:52 INFO  time: initialize in 0.34s
+2020.11.21 12:47:52 WARN  Build server is not auto-connectable.
+2020.11.21 12:47:52 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.21 12:47:51 INFO  skipping build import with status 'Cancelled'
+2020.11.21 12:47:53 INFO  no build target: using presentation compiler with only scala-library
+2020.11.21 14:28:11 INFO  shutting down Metals
+2020.11.21 14:28:22 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.21 14:28:23 INFO  time: initialize in 0.37s
+2020.11.21 14:28:23 WARN  Build server is not auto-connectable.
+2020.11.21 14:28:23 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.21 14:28:23 INFO  skipping build import with status 'Cancelled'
+2020.11.21 14:28:25 INFO  no build target: using presentation compiler with only scala-library
+2020.11.21 14:28:25 INFO  shutting down Metals
+2020.11.21 14:28:30 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.21 14:28:31 INFO  time: initialize in 0.38s
+2020.11.21 14:28:31 WARN  Build server is not auto-connectable.
+2020.11.21 14:28:31 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.21 14:28:31 INFO  skipping build import with status 'Cancelled'
+2020.11.21 14:28:33 INFO  no build target: using presentation compiler with only scala-library
+2020.11.21 14:28:33 INFO  shutting down Metals
+2020.11.21 21:15:46 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.21 21:15:47 INFO  time: initialize in 0.35s
+2020.11.21 21:15:47 WARN  Build server is not auto-connectable.
+2020.11.21 21:15:47 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.21 21:15:46 INFO  skipping build import with status 'Cancelled'
+2020.11.21 21:15:48 INFO  no build target: using presentation compiler with only scala-library
+2020.11.21 21:17:00 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.21 21:17:04 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.21 22:47:01 INFO  shutting down Metals
+2020.11.22 02:42:10 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.22 02:42:10 INFO  time: initialize in 0.35s
+2020.11.22 02:42:11 WARN  Build server is not auto-connectable.
+2020.11.22 02:42:11 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.22 02:42:11 INFO  skipping build import with status 'Cancelled'
+2020.11.22 02:42:12 INFO  no build target: using presentation compiler with only scala-library
+2020.11.22 04:16:16 INFO  shutting down Metals
+2020.11.22 10:15:16 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.22 10:15:17 INFO  time: initialize in 0.44s
+2020.11.22 10:15:18 WARN  Build server is not auto-connectable.
+2020.11.22 10:15:18 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.22 10:15:18 INFO  skipping build import with status 'Cancelled'
+2020.11.22 10:15:19 INFO  no build target: using presentation compiler with only scala-library
+2020.11.22 14:38:29 INFO  shutting down Metals
+2020.11.23 01:03:37 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.23 01:03:38 INFO  time: initialize in 0.35s
+2020.11.23 01:03:38 WARN  Build server is not auto-connectable.
+2020.11.23 01:03:38 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.23 01:03:38 INFO  skipping build import with status 'Cancelled'
+2020.11.23 01:03:39 INFO  no build target: using presentation compiler with only scala-library
+2020.11.23 02:51:44 INFO  shutting down Metals
+2020.11.23 11:52:11 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.23 11:52:11 INFO  time: initialize in 0.34s
+2020.11.23 11:52:12 WARN  Build server is not auto-connectable.
+2020.11.23 11:52:12 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.23 11:52:12 INFO  skipping build import with status 'Cancelled'
+2020.11.23 11:52:13 INFO  no build target: using presentation compiler with only scala-library
+2020.11.23 11:53:58 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.23 11:54:01 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.23 12:03:57 INFO  shutting down Metals
+2020.11.23 12:04:50 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.23 12:04:50 INFO  time: initialize in 0.36s
+2020.11.23 12:04:51 WARN  Build server is not auto-connectable.
+2020.11.23 12:04:51 INFO  skipping build import with status 'Cancelled'
+2020.11.23 13:17:07 INFO  shutting down Metals
+2020.11.24 16:18:47 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.24 16:18:47 INFO  time: initialize in 0.35s
+2020.11.24 16:18:47 WARN  Build server is not auto-connectable.
+2020.11.24 16:18:47 INFO  skipping build import with status 'Cancelled'
+2020.11.24 16:42:14 INFO  shutting down Metals
+2020.11.24 18:26:40 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.24 18:26:40 INFO  time: initialize in 0.37s
+2020.11.24 18:26:41 WARN  Build server is not auto-connectable.
+2020.11.24 18:26:41 INFO  skipping build import with status 'Cancelled'
+2020.11.24 18:34:02 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 18:34:03 INFO  no build target: using presentation compiler with only scala-library
+2020.11.24 18:34:06 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.24 18:34:15 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.24 18:37:35 INFO  shutting down Metals
+2020.11.24 19:21:12 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.24 19:21:13 INFO  time: initialize in 0.33s
+2020.11.24 19:21:13 WARN  Build server is not auto-connectable.
+2020.11.24 19:21:13 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.24 19:21:13 INFO  skipping build import with status 'Cancelled'
+2020.11.24 19:21:14 INFO  no build target: using presentation compiler with only scala-library
+2020.11.24 19:24:34 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 19:24:50 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.24 19:26:39 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala
+2020.11.24 19:26:54 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.24 19:26:54 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala' because it doesn't belong to a build target.
+2020.11.24 20:15:38 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.24 20:15:43 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 113)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 108)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 113)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 106)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 107)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[<error>]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 108)
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[Models.SearchSpecific]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 119)
+2020.11.24 20:16:35 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala in Seq[Models.SearchSpecific]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala, 100, 100, 119)
+2020.11.24 20:16:55 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:16:58 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala' because it doesn't belong to a build target.
+2020.11.24 20:17:03 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchProfile.scala
+2020.11.24 20:18:08 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:08 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:08 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala in Seq[Models.SearchSpecific]RangePosition(file:///Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala, 101, 101, 120)
+2020.11.24 20:18:13 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:16 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:16 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:17 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:19 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:20 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:20 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:18:21 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:39 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:19:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:41 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:19:55 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala:41: error: ) expected but } found
+  }
+  ^
+2020.11.24 20:19:55 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:20:14 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:20:17 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:21:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:21:00 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:22:03 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:22:06 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:22:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:22:14 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:33 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:33 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:33 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:34 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:48 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:49 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:50 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:52 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:23:53 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:24:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:24:10 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:24:10 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:24:15 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+Nov 24, 2020 8:25:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1399
+2020.11.24 20:25:42 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:25:43 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:26:07 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:26:12 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:27:15 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:27:28 ERROR scalafmt: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala:64: error: ; expected but [ found
+[{"name":"Bailey, Tanya J, MD","work":"Pediatrics","servicesAndCosts":[{"services":"Services Office Visit - Primary Doctor - Established Patient - High Complexity","costNear":"$302 - $377","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Minimal Complexity","costNear":"$42 - $52","estimatedTotalCost":"Cost Not Available","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Moderate Complexity","costNear":"C$145 - $188","estimatedTotalCost":"Below Average Cost ","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - New Patient - High Complexity","costNear":"$420 - $550","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"}]},{"name":"Meier, Diane M, MD","work":"Pediatrics","servicesAndCosts":[{"services":"Services Office Visit - Primary Doctor - Established Patient - High Complexity","costNear":"$302 - $377","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Minimal Complexity","costNear":"$42 - $52","estimatedTotalCost":"Cost Not Available","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Moderate Complexity","costNear":"C$145 - $188","estimatedTotalCost":"Below Average Cost ","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - New Patient - High Complexity","costNear":"$420 - $550","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"}]},{"name":"Pflaster, Gregory J, Jr, MD","work":"Urgent Care Medicine, Family Practice","servicesAndCosts":[{"services":"Services Office Visit - Primary Doctor - Established Patient - High Complexity","costNear":"$302 - $377","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Minimal Complexity","costNear":"$42 - $52","estimatedTotalCost":"Cost Not Available","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Moderate Complexity","costNear":"C$145 - $188","estimatedTotalCost":"Below Average Cost ","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - New Patient - High Complexity","costNear":"$420 - $550","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"}]},{"name":"Phillips, Daniela M, MD","work":"Pediatrics","servicesAndCosts":[{"services":"Services Office Visit - Primary Doctor - Established Patient - High Complexity","costNear":"$302 - $377","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Minimal Complexity","costNear":"$42 - $52","estimatedTotalCost":"Cost Not Available","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Moderate Complexity","costNear":"C$145 - $188","estimatedTotalCost":"Below Average Cost ","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - New Patient - High Complexity","costNear":"$420 - $550","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"}]},{"name":"Swan, Thomas T, MD","work":"Family Practice","servicesAndCosts":[{"services":"Services Office Visit - Primary Doctor - Established Patient - High Complexity","costNear":"$302 - $377","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Minimal Complexity","costNear":"$42 - $52","estimatedTotalCost":"Cost Not Available","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - Established Patient - Moderate Complexity","costNear":"C$145 - $188","estimatedTotalCost":"Below Average Cost ","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"},{"services":"Office Visit - Primary Doctor - New Patient - High Complexity","costNear":"$420 - $550","estimatedTotalCost":"Below Average Cost","insurancePays":"* N/A","estimatedOutOfPocketCost":"* N/A"}]}]
+^
+2020.11.24 20:27:28 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:27:29 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:27:32 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:27:34 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:32:52 INFO  shutting down Metals
+2020.11.24 20:33:06 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.24 20:33:07 INFO  time: initialize in 0.34s
+2020.11.24 20:33:07 WARN  Build server is not auto-connectable.
+2020.11.24 20:33:07 INFO  skipping build import with status 'Cancelled'
+2020.11.24 20:41:55 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:41:56 INFO  no build target: using presentation compiler with only scala-library
+2020.11.24 20:41:59 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.24 20:42:03 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:42:03 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala' because it doesn't belong to a build target.
+2020.11.24 20:50:08 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:51:49 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:51:49 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.24 20:51:51 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.24 20:54:03 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.25 02:21:04 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchSpecific.scala
+2020.11.25 02:24:33 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:24:35 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:25:28 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.25 02:27:52 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:27:54 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:28:34 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:28:46 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:28:49 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:34:01 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.25 02:34:09 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.25 02:34:38 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.25 02:36:53 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.25 02:45:12 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.25 02:45:31 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/ProfileDetails.scala
+2020.11.25 02:46:18 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:46:20 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 02:47:42 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:20:41 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:20:43 WARN  code navigation does not work for the file '/Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala' because it doesn't belong to a build target.
+2020.11.25 03:20:46 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:20:59 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:21:31 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:22:45 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:22:47 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:24:07 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:25:36 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:26:15 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:28:50 INFO  shutting down Metals
+2020.11.25 03:31:41 INFO  Started: Metals version 0.9.6 in workspace '/Users/mrathi5/Desktop/POCs/practice-ap-backend' for client vscode.
+2020.11.25 03:31:42 INFO  time: initialize in 0.36s
+2020.11.25 03:31:42 WARN  Build server is not auto-connectable.
+2020.11.25 03:31:42 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
+2020.11.25 03:31:42 INFO  skipping build import with status 'Cancelled'
+2020.11.25 03:31:43 INFO  no build target: using presentation compiler with only scala-library
+2020.11.25 03:36:51 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/Models/SearchResult.scala
+2020.11.25 03:37:04 WARN  no build target for: /Users/mrathi5/Desktop/POCs/practice-ap-backend/app/controllers/HomeController.scala
