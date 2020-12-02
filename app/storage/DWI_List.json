@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Bailey, Tanya J, MD",
+    "work": "Pediatrics",
+    "servicesAndCosts": [
+      {
+        "services": "Services Office Visit - Primary Doctor - Established Patient - High Complexity",
+        "costNear": "$302 - $377",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Minimal Complexity",
+        "costNear": "$42 - $52",
+        "estimatedTotalCost": "Cost Not Available",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Moderate Complexity",
+        "costNear": "C$145 - $188",
+        "estimatedTotalCost": "Below Average Cost ",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - New Patient - High Complexity",
+        "costNear": "$420 - $550",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      }
+    ]
+  },
+  {
+    "name": "Meier, Diane M, MD",
+    "work": "Pediatrics",
+    "servicesAndCosts": [
+      {
+        "services": "Services Office Visit - Primary Doctor - Established Patient - High Complexity",
+        "costNear": "$302 - $377",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Minimal Complexity",
+        "costNear": "$42 - $52",
+        "estimatedTotalCost": "Cost Not Available",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Moderate Complexity",
+        "costNear": "C$145 - $188",
+        "estimatedTotalCost": "Below Average Cost ",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - New Patient - High Complexity",
+        "costNear": "$420 - $550",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      }
+    ]
+  },
+  {
+    "name": "Pflaster, Gregory J, Jr, MD",
+    "work": "Urgent Care Medicine, Family Practice",
+    "servicesAndCosts": [
+      {
+        "services": "Services Office Visit - Primary Doctor - Established Patient - High Complexity",
+        "costNear": "$302 - $377",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Minimal Complexity",
+        "costNear": "$42 - $52",
+        "estimatedTotalCost": "Cost Not Available",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Moderate Complexity",
+        "costNear": "C$145 - $188",
+        "estimatedTotalCost": "Below Average Cost ",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - New Patient - High Complexity",
+        "costNear": "$420 - $550",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      }
+    ]
+  },
+  {
+    "name": "Phillips, Daniela M, MD",
+    "work": "Pediatrics",
+    "servicesAndCosts": [
+      {
+        "services": "Services Office Visit - Primary Doctor - Established Patient - High Complexity",
+        "costNear": "$302 - $377",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Minimal Complexity",
+        "costNear": "$42 - $52",
+        "estimatedTotalCost": "Cost Not Available",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Moderate Complexity",
+        "costNear": "C$145 - $188",
+        "estimatedTotalCost": "Below Average Cost ",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - New Patient - High Complexity",
+        "costNear": "$420 - $550",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      }
+    ]
+  },
+  {
+    "name": "Swan, Thomas T, MD",
+    "work": "Family Practice",
+    "servicesAndCosts": [
+      {
+        "services": "Services Office Visit - Primary Doctor - Established Patient - High Complexity",
+        "costNear": "$302 - $377",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Minimal Complexity",
+        "costNear": "$42 - $52",
+        "estimatedTotalCost": "Cost Not Available",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - Established Patient - Moderate Complexity",
+        "costNear": "C$145 - $188",
+        "estimatedTotalCost": "Below Average Cost ",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      },
+      {
+        "services": "Office Visit - Primary Doctor - New Patient - High Complexity",
+        "costNear": "$420 - $550",
+        "estimatedTotalCost": "Below Average Cost",
+        "insurancePays": "* N/A",
+        "estimatedOutOfPocketCost": "* N/A"
+      }
+    ]
+  }
+]

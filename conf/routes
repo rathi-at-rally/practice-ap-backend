@@ -4,8 +4,11 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index()
-GET     /details/:key               controllers.HomeController.details(key: Int)
+GET     /                               controllers.HomeController.fetch_DoctorGeneralInfo()
+GET     /details/:key                   controllers.HomeController.fetch_specificDoctorWorkInfo(key: String)
+GET     /doctor/general/:search         controllers.HomeController.fetch_specificDoctorGeneralInfo(search: String)
+GET     /workinfo                       controllers.HomeController.fetch_DoctorWorkInfo()
+GET     /login/:id/:email/:password     controllers.HomeController.validate_credentials(id: String, email: String, password: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
