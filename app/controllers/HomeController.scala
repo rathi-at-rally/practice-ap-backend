@@ -47,7 +47,7 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
       "work" -> val_DGI.work,
       "address1" -> val_DGI.address1,
       "address2" -> val_DGI.address2,
-      "location" -> val_DGI.location,
+      "contact" -> val_DGI.contact,
       "vicinity" -> val_DGI.vicinity
     )
   }
@@ -63,7 +63,6 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
       (JsPath \ "estimatedOutOfPocketCost").read[String]
   )(ServicesAndCosts.apply _)
 
-
   implicit val reads_DWI: Reads[DoctorWorkInfo] = (
       (JsPath \ "name").read[String] and
       (JsPath \ "work").read[String] and
@@ -74,11 +73,10 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
       (JsPath \ "name").read[String] and
       (JsPath \ "work").read[String] and
       (JsPath \ "address1").read[String] and
-      (JsPath \ "address1").read[String] and
-      (JsPath \ "location").read[String] and
+      (JsPath \ "address2").read[String] and
+      (JsPath \ "contact").read[String] and
       (JsPath \ "vicinity").read[String]
   )(DoctorGeneralInfo.apply _)
-
 
   implicit val reads_Credentials: Reads[Credentials] = (
       (JsPath \ "id").read[String] and
@@ -86,21 +84,17 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
       (JsPath \ "password").read[String]
   )(Credentials.apply _)
 
-// API to fetch a list of DGI
-  def fetch_DoctorGeneralInfo() = Action { implicit request: Request[AnyContent] =>
-    val strDGI =
-      scala.io.Source.fromFile(path_DGI_repo).mkString
-    Ok(Json.parse(strDGI));
-  }
+
 
 // API to fetch a specific DGI based on name
   def fetch_specificDoctorGeneralInfo(searchString: String) = Action { implicit request =>
     val strDGI = scala.io.Source.fromFile(path_DGI_repo).mkString
     val listDGI = Json.parse(strDGI).as[List[DoctorGeneralInfo]]
-    val selectedDGI = listDGI.filter(_.name.contains(searchString))
-    Ok(Json.toJson(selectedDGI));
+    searchString match {
+      case "ALL" => Ok(Json.toJson(listDGI))
+      case _ => Ok(Json.toJson(listDGI.filter(_.name.contains(searchString))))
+    }
   }
-
 
 // API to fetch a specific DWI based on name
   def fetch_specificDoctorWorkInfo(key: String) = Action { implicit request =>
@@ -109,15 +103,6 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
     val selectedDWI = listDWI.filter(_.name == key)
     Ok(Json.toJson(selectedDWI.head));
   }
-
-
-// API to fetch a list of DWI
-  def fetch_DoctorWorkInfo() = Action { implicit request =>
-    val strDWI =
-      scala.io.Source.fromFile(path_DWI_repo).mkString
-    Ok(Json.parse(strDWI));
-  }
-
 
   // API to validate Credentials
   def validate_credentials(qid: String, qemail: String, qpassword: String) = Action { implicit request =>

@@ -5,6 +5,6 @@ case class DoctorGeneralInfo(
     work: String,
     address1: String,
     address2: String,
-    location: String,
+    contact: String,
     vicinity: String
 )
