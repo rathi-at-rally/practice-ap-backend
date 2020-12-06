@@ -4,9 +4,9 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /doctor/work/:key               controllers.HomeController.fetch_specificProviderCosts(key: String)
-GET     /doctor/general/:search         controllers.HomeController.fetch_specificProvider(search: String)
-GET     /login/:id/:email/:password     controllers.HomeController.validate_credentials(id: String, email: String, password: String)
+GET     /doctor/work/:key               controllers.ProviderCostController.fetch_specificProviderCosts(key: String)
+GET     /doctor/general/:search         controllers.ProviderController.fetch_specificProvider(search: String)
+GET     /login/:id/:email/:password     controllers.UserController.validate_credentials(id: String, email: String, password: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
