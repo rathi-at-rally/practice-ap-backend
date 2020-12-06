@@ -264,7 +264,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
                 "options": [
                     "-Duser.dir=/Users/mrathi5/Desktop/POCs/practice-ap-backend/project"
                 ]
