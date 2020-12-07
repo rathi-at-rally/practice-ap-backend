@@ -45,5 +45,14 @@ class ProviderDAO extends DAOFactory{
     return listFormat
   }
 
+  def fetch_list_by_searchString(pathJson: String, searchString: String): List[Provider] =
+  {
+    val tempResult = fetch_list(pathJson)
+    searchString match {
+      case "ALL" => tempResult
+      case _ => tempResult.filter(_.name.contains(searchString))
+    }
+  }
+
 }
 

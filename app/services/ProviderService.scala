@@ -2,15 +2,12 @@ package services
 
 import dao.Provider
 import dao.ProviderDAO
+import javax.inject.Inject
 import utilities.Constants
 
-class ProviderService {
+class ProviderService @Inject() (val providerDAO: ProviderDAO) {
   def fetch_Provider(searchString: String): List[Provider] = {
-    val providerDAO = new ProviderDAO()
-    val listDGI = providerDAO.fetch_list(Constants.path_Provider_json)
-    searchString match {
-      case "ALL" => listDGI
-      case _ => listDGI.filter(_.name.contains(searchString))
-    }
+    val result = providerDAO.fetch_list_by_searchString(Constants.path_Provider_json, searchString )
+    return result
   }
 }

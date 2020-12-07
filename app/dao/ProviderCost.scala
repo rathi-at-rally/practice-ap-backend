@@ -34,4 +34,11 @@ class ProviderCostDAO extends DAOFactory{
     return listFormat
   }
 
+  def fetch_specific(pathJson: String, key: String): ProviderCost =
+  {
+    val selectedDWI = fetch_list(pathJson).filter(_.name == key)
+    return (selectedDWI.head)
+
+  }
+
 }

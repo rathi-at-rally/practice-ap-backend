@@ -3,13 +3,12 @@ import play.api.libs.json._
 import dao.ProviderCost
 import dao.ProviderCostDAO
 import utilities.Constants
+import javax.inject.{Inject}
 
-class ProviderCostService{
+class ProviderCostService @Inject() (val providerCostDAO: ProviderCostDAO){
 def fetch_ProviderCosts(key: String): ProviderCost = {
-  val providerCostDAO = new ProviderCostDAO()
-     val listDWI = providerCostDAO.fetch_list(Constants.path_ProviderCost_json)
-     val selectedDWI = listDWI.filter(_.name == key)
-     return (selectedDWI.head)
+     val result = providerCostDAO.fetch_specific(Constants.path_ProviderCost_json, key )
+     return (result)
   }
 }
 

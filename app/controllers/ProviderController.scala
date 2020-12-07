@@ -10,8 +10,8 @@ class ProviderController @Inject() (val controllerComponents: ControllerComponen
   extends BaseController {
 
   def fetch_specificProvider(searchString: String) = Action.async { implicit request =>
-    val result = scala.concurrent.Future{providerService.fetch_Provider(searchString)}
-    result.map { i => Ok(Json.toJson(i))}
+    val providersList = scala.concurrent.Future{providerService.fetch_Provider(searchString)}
+    providersList.map { providerList => Ok(Json.toJson(providerList))}
   }
 
 }
