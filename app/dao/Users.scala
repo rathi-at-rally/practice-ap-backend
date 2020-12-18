@@ -18,7 +18,7 @@ object Users{
 
 }
 
-class UsersDAO extends DAOFactory{
+class UsersDAO {
 
   def fetch_list(pathJson: String): List[Users] =
   {

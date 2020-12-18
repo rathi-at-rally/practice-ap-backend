@@ -36,7 +36,7 @@ object Provider{
 
 }
 
-class ProviderDAO extends DAOFactory{
+class ProviderDAO {
 
   def fetch_list(pathJson: String): List[Provider] =
   {

@@ -25,7 +25,7 @@ object ProviderCost{
     )(ProviderCost.apply _)
 }
 
-class ProviderCostDAO extends DAOFactory{
+class ProviderCostDAO {
 
   def fetch_list(pathJson: String): List[ProviderCost] =
   {
